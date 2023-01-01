@@ -30,7 +30,7 @@ $(function () {
         if (results.length == 5) {
             setInterval(function () {
                 if (i < 5) {
-                    console.log(results[i])
+                    $("#result").append(`<p>${results[i]}</p>`)
                     showResults();
                     i++;
                 }
