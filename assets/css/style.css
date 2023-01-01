@@ -1,5 +1,5 @@
 * {
-    color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -7,12 +7,14 @@ body {
     width: 97.5vw;
     height: 97.5vh;
     background: #1d3557 !important;
+    background: url("../images/background-image.jpg") !important;
 }
 
 main {
     width: 800px;
     height: 600px;
-    background: white;
+    opacity: 80%;
+    background: #001845;
 }
 
 section {
@@ -21,7 +23,7 @@ section {
 }
 
 h1 {
-    color: #03045e;
+    color: white;
 }
 
 #result > p {
@@ -32,11 +34,11 @@ h1 {
 }
 
 h4 {
-    color: #0a53be;
+    color: white;
 }
 
 aside > p {
-    color: #012a4a;
+    color: white;
     font-size: 1.2em;
 }
 
@@ -49,5 +51,5 @@ aside > p:nth-child(2) > span{
 }
 
 aside > p:last-child > span{
-    color: #004b23;
+    color: #38b000;
 }

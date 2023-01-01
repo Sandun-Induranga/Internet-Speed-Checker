@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <title>Internet Speed Checker</title>
 
+    <!-- CSS For Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
+    <!-- CSS For Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- CSS For Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- CSS For Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
-<body class="d-flex justify-content-center align-items-center">
+<body class="d-flex justify-content-center align-items-center flex-column">
 
+<!-- Main Content -->
 <main class="d-flex align-items-center justify-content-around flex-column rounded-5 shadow-lg">
 
     <h1>Internet Speed Checker</h1>
 
+    <!-- Tests -->
     <section id="result" class="d-flex align-items-center flex-column">
 
     </section>
 
-    <h4>Connecting ...</h4>
+    <h4 class="fw-bold">Connecting ...</h4>
 
+    <!-- Results -->
     <aside>
         <p>Max Speed &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="maxSpeed"></span></p>
         <p>Min Speed &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span id="minSpeed"></span></p>
@@ -33,6 +42,8 @@
     </aside>
 
 </main>
+
+<small class="mt-2 text-light">Copyright @ Sandun Induranga</small>
 
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-3.6.1.min.js"></script>

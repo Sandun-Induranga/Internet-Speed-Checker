@@ -31,7 +31,7 @@ $(function () {
             $("h4").text("")
             setInterval(function () {
                 if (i < 5) {
-                    $("#result").append(`<p>Test ${i+1}&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp; ${results[i]} mbps</p>`);
+                    $("#result").append(`<p>Test ${i+1}&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp; ${results[i]} mbps <i class="bi bi-check2-circle text-light"></i></p>`);
                     showResults();
                     i++;
                 } else {
