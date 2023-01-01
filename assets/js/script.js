@@ -37,7 +37,8 @@ $(function () {
                 } else {
                     $("#maxSpeed").text(Math.max(results[0], results[1], results[2], results[3], results[4])+ " mbps");
                     $("#minSpeed").text(Math.min(results[0], results[1], results[2], results[3], results[4])+ " mbps");
-                    $("#averageSpeed").text((((parseFloat(results[0]) + parseFloat(results[1]) + parseFloat(results[2]) + parseFloat(results[3]) + parseFloat(results[4])).toFixed(2))/5).toFixed(2)+ " mbps");
+                    let res = parseFloat(results[0]) + parseFloat(results[1]) + parseFloat(results[2]) + parseFloat(results[3]) + parseFloat(results[4]);
+                    $("#averageSpeed").text((res/5).toFixed(2) +  " mbps");
 
                 }
             }, 1000);
