@@ -1,13 +1,20 @@
-body{
+* {
+    color: white;
+}
+
+body {
     width: 97.5vw;
     height: 97.5vh;
+    background: #1d3557 !important;
 }
-main{
+
+main {
     width: 800px;
     height: 600px;
-    background: #0a53be;
+    background-image: linear-gradient(to right bottom, #481985, #252e7d, #13376d, #213a57, #343a40);
 }
-section{
+
+section {
     width: 300px;
     height: 300px;
 }
