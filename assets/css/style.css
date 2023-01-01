@@ -53,3 +53,13 @@ aside > p:nth-child(2) > span{
 aside > p:last-child > span{
     color: #38b000;
 }
+
+@media all and (min-width: 320px ) and (max-width: 500px) {
+    h1{
+        text-align: center;
+    }
+    main{
+        width: 90vw;
+        height: 90vh;
+    }
+}
