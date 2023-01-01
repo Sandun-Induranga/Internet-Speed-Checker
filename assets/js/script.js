@@ -30,9 +30,13 @@ $(function () {
         if (results.length == 5) {
             setInterval(function () {
                 if (i < 5) {
-                    $("#result").append(`<p>${results[i]}</p>`)
+                    $("#result").append(`<p>${results[i]} mbps</p>`);
                     showResults();
                     i++;
+                } else {
+                    $("#maxSpeed").text(Math.max(results[0], results[1], results[2], results[3], results[4])+ " mbps");
+                    $("#minSpeed").text(Math.min(results[0], results[1], results[2], results[3], results[4])+ " mbps");
+                    $("#averageSpeed").text((parseFloat(results[0] + results[1] + results[2] + results[3] + results[4])/5).toFixed(2)+ " mbps");
                 }
             }, 1000);
         }
