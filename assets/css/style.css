@@ -1,5 +1,5 @@
 * {
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -12,10 +12,29 @@ body {
 main {
     width: 800px;
     height: 600px;
-    background-image: linear-gradient(to right bottom, #481985, #252e7d, #13376d, #213a57, #343a40);
+    background: white;
 }
 
 section {
     width: 300px;
     height: 300px;
+}
+
+h1 {
+    color: #03045e;
+}
+
+#result > p {
+    background: #0a53be;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+h4 {
+    color: #0a53be;
+}
+
+aside > p {
+    color: #012a4a;
 }

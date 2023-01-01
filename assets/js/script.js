@@ -28,9 +28,10 @@ $(function () {
 
     function showResults() {
         if (results.length == 5) {
+            $("h4").text("")
             setInterval(function () {
                 if (i < 5) {
-                    $("#result").append(`<p>${results[i]} mbps</p>`);
+                    $("#result").append(`<p>Test ${i+1}&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp; ${results[i]} mbps</p>`);
                     showResults();
                     i++;
                 } else {
