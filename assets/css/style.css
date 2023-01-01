@@ -1,3 +1,12 @@
+body{
+    width: 97.5vw;
+    height: 97.5vh;
+}
+main{
+    width: 800px;
+    height: 600px;
+    background: #0a53be;
+}
 section{
     width: 300px;
     height: 300px;
