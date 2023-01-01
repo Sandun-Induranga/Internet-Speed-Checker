@@ -37,4 +37,17 @@ h4 {
 
 aside > p {
     color: #012a4a;
+    font-size: 1.2em;
+}
+
+aside > p:first-child > span{
+    color: #d90429;
+}
+
+aside > p:nth-child(2) > span{
+    color: #ff9f1c;
+}
+
+aside > p:last-child > span{
+    color: #004b23;
 }
