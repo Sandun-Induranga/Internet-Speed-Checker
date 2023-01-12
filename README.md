@@ -2,12 +2,11 @@
 
 *********Technologies*********
 <br>
-<br>
-`HTML`
-`CSS`
-`JavaScript`
-`Bootstrap`
-`jQuery`
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* jQuery
 <br>
 <br>
 <br>
