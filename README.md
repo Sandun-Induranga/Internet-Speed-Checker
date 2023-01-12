@@ -9,7 +9,6 @@
 * jQuery
 <br>
 <br>
-<br>
 
 Website Link - https://sandun-induranga.github.io/Internet-Speed-Checker/
 
